@@ -1,1 +1,1 @@
-# TypeScript_Halex
+# This repository contain exercises with examples of javascript
