@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* === Estructura de carpetas === */
+    "rootDir": "./src",
+    "outDir": "./build/js",
+
+    /* === Objetivo y entorno === */
+    "target": "es2017", // JavaScript moderno y limpio
+    "module": "commonjs", // Para Node.js
+    "lib": ["esnext", "dom"], // Permite usar APIs modernas y navegador
+
+    /* === Comportamiento del compilador === */
+    "strict": true, // Activa comprobaciones estrictas
+    "esModuleInterop": true, // Permite importar módulos fácilmente
+    "skipLibCheck": true, // No revisa tipos externos
+    "forceConsistentCasingInFileNames": true,
+
+    /* === Limpieza de salida === */
+    "removeComments": true, // No deja comentarios en JS
+    "sourceMap": false, // No genera .map
+    "declaration": false, // No genera .d.ts
+    "declarationMap": false, // No genera mapas de tipos
+
+    /* === Opciones opcionales === */
+    "noImplicitAny": false, // Puedes poner true más adelante
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
