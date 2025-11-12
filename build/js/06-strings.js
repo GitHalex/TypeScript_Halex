@@ -1,0 +1,18 @@
+"use strict";
+let miNombre = "Halex";
+let miApellido = "Gonzalez";
+console.log(miNombre.length);
+console.log(miApellido[1]);
+console.log(miNombre[7]);
+console.log(miNombre.toUpperCase());
+console.log(miNombre.toLowerCase());
+console.log(miNombre.indexOf("halex"));
+console.log(miNombre.indexOf("lex"));
+console.log(miNombre.includes("alex"));
+console.log(miNombre.slice(0, 2));
+console.log(miNombre.replace("Halex", "Alex"));
+console.log(miNombre.concat(" ", miApellido));
+console.log(`${miNombre} ${miApellido}`);
+console.log(miNombre.repeat(3));
+let saludo = `Hola, mi nombre es ${miNombre} ${miApellido}.`;
+console.log(saludo);

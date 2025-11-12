@@ -93,13 +93,21 @@ console.log(b >= 10); // false
 console.log(a !== 10); // false
 
 // 5. Utiliza el operador lógico and
+console.log(a > 5 && b < 10); // true
 
 // 6. Utiliza el operador lógico or
+console.log(a < 5 || b < 10); // true
 
 // 7. Combina ambos operadores lógicos
+console.log((a > 5 && b < 10) || (a < 5 && b > 10)); // true
 
 // 8. Añade alguna negación
+console.log(!(a < 5) && b < 10); // true
 
 // 9. Utiliza el operador ternario
+let esMayor: string = a > b ? "a es mayor que b" : "a no es mayor que b";
+console.log(esMayor);
 
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+let combinado: boolean = (a + b > 10 && a - b < 10) || a * b === 50;
+console.log(combinado);
