@@ -73,9 +73,31 @@ mySymbol = Symbol("newSymbol");
 myBigInt = BigInt(98765432109876543210);
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
-
+/* myString = 123; // This will cause an error
+myNumber = "Not a number";
+myBoolean = "true";
+myUndefined = null;
+myNull = undefined;
+mySymbol = "Not a symbol";
+myBigInt = 12345; // This will cause an error */
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
+const LogBase: number = 3.14;
+const isRaining: boolean = false;
+const greeting: string = "Hello, World!";
+const maxUsers: number = 1000;
+const appSymbol: symbol = Symbol("app");
+const bigNumber: bigint = BigInt(12345678901234567890);
+const nothing: null = null;
+const notDefined: undefined = undefined;
 
 // 9. A continuación, modifica los valores de las constantes
-
+// notDefined = "Already defined"; // This will cause an error
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
+
+/* function suma(a: number, b: number): number {
+  return a + b;
+}
+suma(5, 10); */
+
+const expression: RegExp = /\w+\s/g;
+console.log(expression.test("Hello World"));
