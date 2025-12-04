@@ -7,3 +7,5 @@ mySet.add(2);
 console.log(mySet);
 let otroSet = new Set(["apple", "banana", "orange"]);
 console.log(otroSet);
+let setNumberString = new Set([1, 2, "three", "four"]);
+console.log(setNumberString);

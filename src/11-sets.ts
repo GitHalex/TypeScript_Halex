@@ -8,3 +8,6 @@ console.log(mySet); // Output: Set { 1, 2, 3 }
 
 let otroSet: Set<string> = new Set(["apple", "banana", "orange"]);
 console.log(otroSet); // Output: Set { 'apple', 'banana', 'orange' }
+
+let setNumberString: Set<number | string> = new Set([1, 2, "three", "four"]);
+console.log(setNumberString); // Output: Set { 1, 2, 'three', 'four' }
